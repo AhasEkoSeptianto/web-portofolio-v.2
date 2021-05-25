@@ -1,0 +1,62 @@
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* jumbotron */
+.bg_jumbotron {
+  height: 100vh;
+  background-image: url("../image/ngoding.jpg");
+  background-size: cover;
+  filter: blur(2px);
+}
+
+#info_gue {
+	opacity: 0;
+	transform: scale(.8,.8);
+}
+
+
+.title {
+	color: #585858;
+	position: relative;
+}
+
+.title::before {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 30%;
+	width: 6%;
+	left: 47%;
+	border-bottom: 3px solid black;
+}
+
+.contact {
+	color: #e0e0e0;
+	position: relative;
+}
+
+.contact::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 70%;
+	width: 6%;
+	left: 47%;
+	border-bottom: 3px solid #e0e0e0;
+}
+
+.contact {
+	background-color: #2d3748;
+}
+
+.contact_content {
+	background-color: #2d3748;
+}
+
+/*footer*/
+
+#social_media li {
+	background-color: #2d3748;
+}
