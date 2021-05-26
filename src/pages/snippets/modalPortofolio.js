@@ -5,7 +5,6 @@ class modalPortofolio extends React.Component{
 
 	close = () => {
 		document.getElementById('modal_porto').classList.add('hidden')
-
 	}
 
 
