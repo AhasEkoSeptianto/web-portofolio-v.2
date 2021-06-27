@@ -250,21 +250,21 @@ class about extends Component {
               <div  id='portofolio'></div>
               <h1 className='text-center py-20 text-4xl lg:text-5xl font-bold opacity-0 transition duration-700 title' id='anim_portofolio'>Portofolio</h1>
 
-              <nav className='w-1/2 mx-auto opacity-0 transition duration-700' id='nav_portofolio'>
-                  <ul className='flex justify-center text-center text-gray-100 text-lg'>
-                      <li className={`px-3 lg:px-20 py-3 mx-2 cursor-pointer ${this.state.portoNav === 'All' ? 'bg-blue-500' : ' text-gray-800 border border-gray-500 '} hover:bg-blue-500 hover:text-white `} onClick={()=>this.updatePorto('All')} >All</li>
-                      <li className={`px-3 lg:px-20 py-3 mx-2 cursor-pointer ${this.state.portoNav === 'php' ? 'bg-blue-500' : ' text-gray-800 border border-gray-500 '} hover:bg-blue-500 hover:text-white`} onClick={()=>this.updatePorto('php')}>Php</li>
-                      <li className={`px-3 lg:px-20 py-3 mx-2 cursor-pointer ${this.state.portoNav === 'javascript' ? 'bg-blue-500' : ' text-gray-800 border border-gray-500 '} hover:bg-blue-500 hover:text-white`} onClick={()=>this.updatePorto('javascript')} >Javascript</li>
-                      <li className={`px-3 lg:px-20 py-3 mx-2 cursor-pointer ${this.state.portoNav === 'python' ? 'bg-blue-500' : ' text-gray-800 border border-gray-500 '} hover:bg-blue-500 hover:text-white`} onClick={()=>this.updatePorto('python')}>Python</li>
+              <nav className='w-full mx-auto opacity-0 transition duration-700' id='nav_portofolio'>
+                  <ul className='flex justify-between p-3 w-full text-center text-gray-100 text-lg'>
+                      <li className={`w-1/4 cursor-pointer ${this.state.portoNav === 'All' ? 'bg-blue-500' : ' text-gray-800 border border-gray-500 '} hover:bg-blue-500 hover:text-white `} onClick={()=>this.updatePorto('All')} >All</li>
+                      <li className={`w-1/4 cursor-pointer ${this.state.portoNav === 'php' ? 'bg-blue-500' : ' text-gray-800 border border-gray-500 '} hover:bg-blue-500 hover:text-white`} onClick={()=>this.updatePorto('php')}>Php</li>
+                      <li className={`w-1/4 cursor-pointer ${this.state.portoNav === 'javascript' ? 'bg-blue-500' : ' text-gray-800 border border-gray-500 '} hover:bg-blue-500 hover:text-white`} onClick={()=>this.updatePorto('javascript')} >Javascript</li>
+                      <li className={`w-1/4 cursor-pointer ${this.state.portoNav === 'python' ? 'bg-blue-500' : ' text-gray-800 border border-gray-500 '} hover:bg-blue-500 hover:text-white`} onClick={()=>this.updatePorto('python')}>Python</li>
                   </ul>
               </nav>
 
               <div className='w-11/12 lg:w-8/12 mx-auto flex flex-wrap mt-10 transition duration-700 opacity-0' id='update_portofolio'>
-                  
+
                   {allPortofolio.map((val, index) => (
 
                       <ImgPortofolio image={val.image_display} name={val.name} framework={val.framework} type={val.lang} index={index} about={val.about_portofolio} img_full={val.image_fullDisplay} site={val.site} button_type={val.button_type} download={val.fileDownload} github={val.github} />
-                      
+
                       ))}
               </div>
 
