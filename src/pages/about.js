@@ -412,7 +412,7 @@ class about extends Component {
                   </li>
                 </a>
 
-                <a href="http://wa.me/+6285351196080">
+                <a href="http://wa.me/+6285810217197">
                   <li
                     className="mx-3 lg:mx5 block h-16 w-16 overflow-hidden shadow hover:bg-blue-100"
                     onMouseOver={() => this.contactHover("show", "whatsapp")}
