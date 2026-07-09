@@ -30,8 +30,8 @@ const allPortofolio = [
     about_portofolio:
       'pada awalnya saya inisiatif membuat sebuah website untuk kampus saya yang dicabang karena mereka belum memilikinya yang mana website ini menyediakan informasi tentang kampus yang baru ini, menggunakan bahasa pemrograman modern "MERN" monggodb/expressjs/reactjs/nodejs. memiliki sistem login dari api dan menggunakan json web token sebagai informasi auth dan dashboard admin, saya juga menggunakan beberapa library dari js seperti material-ui, scrool-smoth etc,',
     image_fullDisplay: "/websapp universitas stikomcki/web_stikomcki.png",
-    site: "https://website-stikomckid.netlify.app/",
-    github: "https://github.com/AhasEkoSeptianto/website-stikom",
+    site: "https://website-stikomckid-v2.netlify.app/",
+    github: "https://github.com/AhasEkoSeptianto/website-stikomckiv2-react.git",
     button_type: "Site",
     fileDownload: "",
   },
