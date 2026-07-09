@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./../css/about.css";
-import ImageGue from "./../image/gue.png";
+import ImageGue from "./../image/gue.jpeg";
 
 import { allIconsSkill, allPortofolio } from "./db.js";
 import { get } from "./../lib/axios.js";
@@ -106,7 +106,7 @@ class about extends Component {
           document.getElementById(`icons_skill_${index}`).style.opacity = "1";
           index += 1;
 
-          if (index === 17) {
+          if (index === allIconsSkill.length) {
             clearInterval(start);
           }
         }, 200);
@@ -252,6 +252,7 @@ class about extends Component {
                 </h2>
 
                 <div className="flex flex-wrap mt-3 lg:mt-10">
+                  {console.log(allIconsSkill)}
                   {allIconsSkill.map((val, index) => (
                     <div
                       className="py-4 flex flex-col justify-center items-center opacity-0 transition duration-700 hover:shadow w-1/3 lg:w-1/5 "
