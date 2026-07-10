@@ -8,14 +8,16 @@ class modalPortofolio extends React.Component {
   render() {
     return (
       <div
-        className="fixed z-50 w-screen h-screen flex justify-center items-center py-14 hidden "
+        className="fixed z-50 w-screen h-screen flex justify-center items-center py-14 hidden"
         id="modal_porto"
       >
         {/* hidden bg */}
-        <div className="absolute w-screen h-screen bg-gray-800 opacity-50"></div>
-
+        <div
+          className="absolute w-screen h-screen bg-gray-800 opacity-50"
+          onClick={this.close}
+        ></div>
         {/* main */}
-        <div className="w-10/12 lg:w-1/3 h-full bg-gray-200 border rounded-lg shadow-lg overflow-auto  z-20">
+        <div className="w-10/12 lg:w-1/3 max-h-full bg-gray-200 border rounded-lg shadow-lg overflow-auto  z-20">
           <img
             src="#"
             className="p-2 rounded-lg"

@@ -36,6 +36,19 @@ const allPortofolio = [
     fileDownload: "",
   },
   {
+    image_display: "/aplikasi_umkm_paguyuban/umkm_paguyuban.jpeg",
+    name: "Web Pendataan Keanggotaan UMKM Paguyuban",
+    framework: "nextjs/mongodb",
+    lang: "javascript",
+    about_portofolio:
+      "aplikasi ini adalah pendataan keanggotaan umkm paguyuban disertai dengan kartu nama yang bisa digunakan anggota umkmnya, dibuat disatu project nextjs dengan builtin api nya dan menggunakan monggodb atlas sebagai penyimpanan datanya, project ini saya yang membuatnya sendiri untuk menambahkan pengalaman dengan media belajar nextjs, aplikasi ini bisa didemo untuk mengetahui cara kerjanya",
+    image_fullDisplay: "/aplikasi_umkm_paguyuban/umkm_paguyuban.jpeg",
+    site: "https://keanggotaan-umkm-paguyuban.netlify.app/",
+    github: "hhttps://github.com/AhasEkoSeptianto/kkp_pendataananggotaumkm.git",
+    button_type: "Site",
+    fileDownload: "",
+  },
+  {
     image_display: "/website es cendol pak yoto/escendolyoto.png",
     name: "website es cendol pak yoto",
     framework: "laravel",
