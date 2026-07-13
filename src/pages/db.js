@@ -23,6 +23,19 @@ var allIconsSkill = [
 
 const allPortofolio = [
   {
+    image_display: "/social-media/social-media-image.png",
+    name: "websapp universitas stikomcki",
+    framework: "nextjs/expressjs/mongodb",
+    lang: "javascript",
+    about_portofolio:
+      "aplikasi media social dengan referensi instagram yang dibuat dengan rapi. bagus serta menerapkan clean code, dibuat dengan teknologi nextjs sebagai frontend, expressjs sebagai backend, monggodb sebagai database. menerapkan jwt authentication dan oauth2 google untuk penerapan authentikasi aman dan baik dan juga menerapkan websocket socket io untuk berkomunikasi secara realtime sebagai fitur livechat dengan sesama pengguna akun . project yang dibuat dengan arsitektur baik sehingga mendukung untuk project sekala besar",
+    image_fullDisplay: "/social-media/social-media-image.png",
+    site: "https://sosial-mediaa.netlify.app/",
+    github: "https://github.com/AhasEkoSeptianto/social-media.git",
+    button_type: "Site",
+    fileDownload: "",
+  },
+  {
     image_display: "/websapp universitas stikomcki/webstikomcki.png",
     name: "websapp universitas stikomcki",
     framework: "mongodb/expressjs/reactjs/nodejs",
